@@ -1,0 +1,246 @@
+
+
+#home {
+    background: url(./images/background.jpg.png);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"%3E%3Cpath stroke="white" stroke-width="2" d="M5 7h20M5 15h20M5 23h20" /%3E%3C/svg%3E');
+  }
+  
+
+.hero_section {
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    position: relative; 
+
+}
+
+.navbar {
+    /* display: flex;
+    justify-content: space-between; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(77, 74, 74, 0.7); /* Blur transparent effect */
+    backdrop-filter: blur(10px); /* Enables the blur effect */
+    z-index: 10;
+    padding: .5rem 1rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white !important; /* Logo text color */
+    /* margin-right: 1rem; Add spacing between logo and nav items */
+}
+
+.navbar-nav {
+    /* flex-grow: 1; */
+    justify-content: center; /* Center align nav items */
+}
+
+.nav-link {
+    color: white !important; /* Set nav item color to white */
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Add hover effect */
+}
+
+/* form {
+    margin-left: auto; } /* Push the form to the right */ 
+
+.navbar-toggler {
+    border: none;
+    color: white !important;
+}
+
+.user_btn .btn {
+    border-radius: 12px;
+    border: none;
+    padding: 2px 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.user_btn .in{
+    background: transparent !important;
+    margin-right: 16px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.user_btn .up{
+    background-color: #ffffff !important;
+    color: #000;
+    border: 1px solid #ffffff;
+}
+
+.hero_content{
+    padding: 0rem 2rem;
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.left_hero{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.left_hero .btn{
+    font-size: 28px;
+    background-color: #FFFFFF !important;
+    /* border: 1px solid rgba(118, 100, 100, 0.7) !important; */
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.properties{
+        /* display: flex;
+        justify-content: space-between; */
+        width: 100% !important; 
+        /* z-index: 10;  */
+        padding: 1rem 2rem;
+        /* width: 100%; */
+        position: sticky;
+        bottom: 0;
+}
+
+.properties ul li {
+    background-color: rgba(77, 74, 74, 0.7); /* Blur transparent effect */
+    backdrop-filter: blur(10px); /* Enables the blur effect */
+    z-index: 10;
+    border: 1px solid rgba(118, 100, 100, 0.7) !important;
+    color: #fff;
+    text-align: center;
+    /* border-radius: 3px !important; */
+}
+
+
+
+.home_dwn{
+   height: 100%;
+   width: 100%;
+}
+
+
+
+.container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .d-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  
+  .card {
+    flex-shrink: 0;  /* Prevent the card from shrinking */
+  }
+  
+  .more_car_btns{
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+
+
+.review{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.right_customer_section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.carousel-container {
+    text-align: center; /* Center the text and buttons */
+  }
+  
+  .carousel-inner {
+    margin-bottom: 10px; /* Add space between text and buttons */
+  }
+  
+  .custom-carousel-controls {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 15rem; /* Add spacing between buttons */
+  }
+  
+  .prev-btn,
+  .next-btn {
+    font-size: 1rem; /* Increase font size for the symbols */
+    background: none; /* Remove default button background */
+    color: #fff; /* Set text color */
+    cursor: pointer; /* Show pointer on hover */
+    background-color: #000;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .prev-btn:hover,
+  .next-btn:hover {
+    color: #555; /* Change color slightly on hover for a visual cue */
+  }
+/*   
+  .main_review_continer{
+    background-color: #000;
+    color: #fff;
+  } */
+
+  .logo_reviews a{
+    font-size:2.8rem;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+
+  .btn_dwn{
+    font-size: 26px;
+    background-color: #000000 !important;
+    border-radius: 10px;
+    color: #ffffff !important;
+    
+  }
+ 
+  .highlight_cars{
+    background-color: #ececec !important;
+    color: #000000 !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    }
+
+
+    @media (max-width: 768px) {
+      .des{
+        display: none;
+      }
+    }

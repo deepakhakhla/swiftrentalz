@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Swift Rentalz</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="home">
+    <div class="hero_section">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="images/Logo.svg" alt=""></a> <!-- Logo on the left -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0"> <!-- Center nav items -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about_us.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="vehicles.html">Explore Vehicles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact_us.html">Contact us</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form> -->
+            <div class="user_btn">
+              <a href="sign_in.html" class="btn btn-light btn-lg active in" role="button" aria-pressed="true">Sign
+                in</a>
+              <a href="sign_up.html" class="btn btn-dark btn-lg active up" role="button" aria-pressed="true">Sign up</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="hero_content">
+        <div class="left_hero">
+          <h1>Find the Vehicle which<br> suits your personality!</h1>
+         <a href="vehicles.html"><button type="button" class="btn mt-3 mb-5 px-5 py-1">Browse all 389 Vehicles!</button></a> 
+        </div>
+        <div class="rigth_hero">
+          <!-- <h1>sdklfjafkjnasckldcnaskld</h1> -->
+        </div>
+      </div>
+      <div class="properties">
+        <ul class="list-group list-group-horizontal w-100">
+          <li class="list-group-item flex-fill"><i class="bi-headset"></i></i> 24/7 Support <br><span class="des">Round-the-clock support,
+            always available!</span></li>
+          <li class="list-group-item flex-fill"><i class="bi-car-front"></i> Driver Availability <br><span class="des">Option to book a
+            car with a driver for added convenience!</span></li>
+          <li class="list-group-item flex-fill"><i class="bi-shield-check"></i> Multiple Insurance Options <br><span class="des">Variety
+            of insurance options for renters!</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="home_dwn">
+
+
+      <div class="container mt-3">
+        <div class="latest_cars">
+          <h3 class="py-4" style="font-weight: bold; font-size: 2rem;">Our Top Class Vehicles</h3>
+        </div>
+        <div class="d-flex overflow-auto" style="gap: 15px;">
+          <div class="card" style="width: 15rem; position: relative;">
+            <!-- Image Container with Watermark -->
+            <div style="position: relative;">
+              <img src="Car's Gallery/h.jpg" class="card-img-top" alt="...">
+              <img src="images/Logo.svg" alt="Watermark" 
+                   style="position: absolute; top: 10px; right: 10px; width: 50px; opacity: 0.5;">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Scion</h5>
+              <p class="card-text"><strong>$</strong> 340 per hour / <strong>Available</strong></p>
+              <a href="https://www.instagram.com/rajviir_choudhary_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="btn btn-dark" target="_blank">Rent This Car</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 15rem; position: relative;">
+            <!-- Image Container with Watermark -->
+            <div style="position: relative;">
+              <img src="Car's Gallery/i.jpg" class="card-img-top" alt="...">
+              <img src="images/Logo.svg" alt="Watermark" 
+                   style="position: absolute; top: 10px; right: 10px; width: 50px; opacity: 0.5;">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Lamborghini</h5>
+              <p class="card-text"><strong>$</strong> 570 per hour / <strong>Available</strong></p>
+              <a href="https://www.instagram.com/rajviir_choudhary_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="btn btn-dark" target="_blank">Rent This Car</a>
+            </div>
+          </div>
+          
+
+          <div class="card" style="width: 15rem; position: relative;">
+            <!-- Image Container with Watermark -->
+            <div style="position: relative;">
+              <img src="Car's Gallery/j.jpg" class="card-img-top" alt="...">
+              <img src="images/Logo.svg" alt="Watermark" 
+                   style="position: absolute; top: 10px; right: 10px; width: 50px; opacity: 0.5;">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Shelby</h5>
+              <p class="card-text"><strong>$</strong> 410 per hour / <strong>Available</strong></p>
+              <a href="https://www.instagram.com/rajviir_choudhary_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="btn btn-dark" target="_blank">Rent This Car</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 15rem; position: relative;">
+            <!-- Image Container with Watermark -->
+            <div style="position: relative;">
+              <img src="Car's Gallery/k.jpg" class="card-img-top" alt="...">
+              <img src="images/Logo.svg" alt="Watermark" 
+                   style="position: absolute; top: 10px; right: 10px; width: 50px; opacity: 0.5;">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Rolls royce</h5>
+              <p class="card-text"><strong>$</strong> 760 per hour / <strong>Available</strong></p>
+              <a href="https://www.instagram.com/rajviir_choudhary_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="btn btn-dark" target="_blank">Rent This Car</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="more_car_btns">
+          <a href="vehicles.html"><button type="button" class="btn btn-dark my-3">Show more Vehicles...</button></a>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="container mt-5">
+        <div class="row review">
+          <!-- Left Section: Fixed Image -->
+          <div class="col-md-6">
+            <img src="images/customer_review.jpg" class="img-fluid" alt="Customer Image">
+          </div>
+
+          <!-- Right Section: Carousel for Reviews -->
+          <div class="col-md-6 right_customer_section">
+
+            <div class="customer_heading">
+              <h3>What our customers says about us!</h3>
+              <p>
+                At Swift Rentalz, we take pride in the trust and satisfaction of our customers. Here, you can explore
+                genuine reviews from people who have experienced our services firsthand. Their feedback not only
+                motivates us but also helps us improve and innovate to meet your needs better. Read through these
+                testimonials to see why we are the preferred choice for seamless and reliable vehicle rental services.
+              </p>
+            </div>
+            <div class="logo_reviews">
+              <a class="" href="home.html"><img src="images/Logo_v2.svg" alt=""></a> <!-- Logo on the left -->
+            </div>
+            <div class="main_review_continer">
+              <div class="carousel-container">
+                <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2500">
+                      <p class="fst-italic">"Swift Rentalz made our trip seamless and enjoyable! The vehicle was in
+                        excellent condition, the booking process was quick, and customer support was top-notch. Highly
+                        recommend their service!"</p>
+                      <footer class="blockquote-footer">Jane Smith</footer>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                      <p class="fst-italic">"I’ve used Swift Rentalz multiple times, and each time they’ve exceeded my
+                        expectations. From reliable vehicles to affordable prices, they’ve become my go-to for rentals.
+                        Great experience!"</p>
+                      <footer class="blockquote-footer">Jane Smith</footer>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                      <p class="fst-italic">"Absolutely loved the service at Swift Rentalz! The team was super helpful,
+                        and the rental process was hassle-free. The car was clean and comfortable, making our trip even
+                        better. Will return!"</p>
+                      <footer class="blockquote-footer">Jane Smith</footer>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                      <p class="fst-italic">"Swift Rentalz offered a fantastic experience. The car was delivered
+                        promptly, customer support was always available, and the prices were competitive. Wouldn’t think
+                        twice about renting here again!"</p>
+                      <footer class="blockquote-footer">Jane Smith</footer>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                      <p class="fst-italic">"Swift Rentalz saved our vacation with their reliable service. Booking was
+                        easy, the car was spotless, and their support team was incredibly friendly. Couldn’t have asked
+                        for more!"</p>
+                      <footer class="blockquote-footer">Jane Smith</footer>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- Custom navigation buttons below or beside the text -->
+              <div class="custom-carousel-controls">
+                <button class="btn prev-btn" type="button" data-bs-target="#reviewCarousel" data-bs-slide="prev">
+                Prev <!-- Replaced with text symbol -->
+                </button>
+
+                <button class="btn next-btn" type="button" data-bs-target="#reviewCarousel" data-bs-slide="next"
+                  >
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="container my-5">
+        <div class="container highlight_cars">
+          <div class="row">
+            <!-- First Component -->
+            <div class="col-md-5">
+              <div class="p-4 text-white text-center">
+                <img src="images/cars_logo.png" alt="">
+              </div>
+            </div>
+        
+            <!-- Second Component -->
+            <div class="col-md-7">
+              <div class="p-4 text-white text-center">
+                <h1 style="color: #000;">Which one's your next car?</h1>
+                <a href="vehicles.html"><button type="button" class="btn_dwn mt-3 mb-5 px-5 py-1">Browse all 389 Vehicles!</button></a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      
+      <!-- footer Starts Here -->
+      
+      <footer class="bg-dark text-light pt-5 pb-4">
+        <div class="container">
+          <div class="row">
+            <!-- Logo Section -->
+            <div class="col-md-3">
+              <h5 class="text-uppercase mb-4"> <a class="" href="index.html"><img src="images/Logo.svg" alt=""></a></h5>
+              <p>Your trusted partner for vehicle rentals, available 24x7 with multiple insurance options.</p>
+            </div>
+      
+            <!-- Address Section -->
+            <div class="col-md-3">
+              <h5 class="text-uppercase mb-4">Address</h5>
+              <p>Sikar, Rajasthan, India</p>
+              <p>Pin Code: 123456</p>
+            </div>
+      
+            <!-- Links Section -->
+            <div class="col-md-3">
+              <h5 class="text-uppercase mb-4">Quick Links</h5>
+              <ul class="list-unstyled">
+                <li><a href="terms_condition.html" class="text-light text-decoration-none">Terms & Conditions</a></li>
+                <li><a href="policy.html" class="text-light text-decoration-none">Privacy Policy</a></li>
+                <li><a href="faq.html" class="text-light text-decoration-none">FAQs</a></li>
+                <li><a href="support.html" class="text-light text-decoration-none">Support</a></li>
+              </ul>
+            </div>
+      
+            <!-- Contact Section -->
+            <div class="col-md-3">
+              <h5 class="text-uppercase mb-4">Contact Us</h5>
+              <p><i class="bi bi-telephone"></i> Phone: +123 456 7890</p>
+              <p><i class="bi bi-envelope"></i> Email: swiftrentalzrd@gmail.com</p>
+              <p><i class="bi bi-clock"></i> Available: 24x7</p>
+            </div>
+          </div>
+      
+          <hr class="text-secondary my-4">
+      
+          <!-- Bottom Section -->
+          <div class="row">
+            <div class="col-md-6">
+              <p class="mb-0">&copy; 2025 Swift Rentalz. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <a href="#" class="text-light text-decoration-none me-3"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-light text-decoration-none me-3"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="text-light text-decoration-none"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

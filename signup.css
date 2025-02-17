@@ -1,0 +1,121 @@
+/* sign_in desgin too includes here */
+
+
+#home {
+    background: url(./images/background.jpg.png);
+    height: 130vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"%3E%3Cpath stroke="white" stroke-width="2" d="M5 7h20M5 15h20M5 23h20" /%3E%3C/svg%3E');
+}
+
+.navbar {
+    /* display: flex;
+    justify-content: space-between; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(77, 74, 74, 0.7); /* Blur transparent effect */
+    backdrop-filter: blur(10px); /* Enables the blur effect */
+    z-index: 11;
+    padding: .5rem 1rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white !important; /* Logo text color */
+    /* margin-right: 1rem; Add spacing between logo and nav items */
+}
+
+.navbar-nav {
+    /* flex-grow: 1; */
+    justify-content: center; /* Center align nav items */
+}
+
+.nav-link {
+    color: white !important; /* Set nav item color to white */
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Add hover effect */
+}
+
+/* form {
+    margin-left: auto; } /* Push the form to the right */ 
+
+.navbar-toggler {
+    border: none;
+    color: white !important;
+}
+
+
+.user_btn .btn {
+  border-radius: 12px;
+  border: none;
+  padding: 2px 16px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.user_btn .in{
+  background: transparent !important;
+  margin-right: 16px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.user_btn .up{
+  background-color: #ffffff !important;
+  color: #000;
+  border: 1px solid #ffffff;
+}
+
+
+.form-container {
+    position: absolute;
+    top: 5rem;
+    right: 1rem;
+    left: 1rem;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 30px;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgba(77, 74, 74, 0.7); /* Blur transparent effect */
+    backdrop-filter: blur(10px); /* Enables the blur effect */
+    z-index: 10;
+  }
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .form-container .form-group {
+    margin-bottom: 15px;
+  }
+  .form-container .form-control {
+    border-radius: 5px;
+  }
+  .form-container .btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .form-text{
+    color: #fff !important;
+  }
+
+  .form-group input{
+    border-radius: 20px;
+  }
